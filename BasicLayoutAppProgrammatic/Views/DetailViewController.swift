@@ -91,7 +91,7 @@ class DetailViewController: UIViewController {
     
     @objc
     func progButtonPressed() {
-        print("Button was Tapped!!!")
+        //print("progButton was Tapped!!!")
         print(self.text)
     }
     
