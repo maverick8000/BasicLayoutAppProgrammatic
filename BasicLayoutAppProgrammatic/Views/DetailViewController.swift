@@ -35,7 +35,7 @@ class DetailViewController: UIViewController {
         button.backgroundColor = .white
         button.addTarget(self, action: #selector(self.progButtonPressed), for: .touchUpInside)
         button.layer.cornerRadius = 12
-        button.addTarget(self, action: #selector(self.whatsGoodieButton(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(self.tapMeAnimatedButtonPressed(sender:)), for: .touchUpInside)
         return button
     }()
 
@@ -95,9 +95,9 @@ class DetailViewController: UIViewController {
         print(self.text)
     }
     
-    @objc fileprivate func whatsGoodieButton(sender: UIButton) {
+    @objc fileprivate func tapMeAnimatedButtonPressed(sender: UIButton) {
         
-        print("whats goodie guys & gals!")
+        print("My name is: \(self.text)")
         self.animateView(sender)
         
     }

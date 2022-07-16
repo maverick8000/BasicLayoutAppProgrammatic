@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
         return table
     }()
     
-    var topTexts: [String] = ["147_Dratini", "148_Dragonair", "371_Bagon", "372_Shelgon", "610_Axew", "611_Fraxure", "612_Haxorus", "621_Druddigon", "704_Goomy", "705_Sliggoo", "706_Goodra", "782_Jangmo-o", "895_Ragidrago"]
+    var topTexts: [String] = ["147_Dratini", "148_Dragonair", "371_Bagon", "372_Shelgon", "610_Axew", "611_Fraxure", "612_Haxorus", "621_Druddigon", "704_Goomy", "705_Sliggoo", "706_Goodra", "782_Jangmo-o", "895_Regidrago"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
